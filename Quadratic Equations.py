@@ -2,6 +2,7 @@
 #Solving Quadratic Equation using the Quadratic Formula
 #Quadratic Equation: ax² + bx + c = 0
 #Quadratic Formula: x = (-b ± sqrt(b² - 4ac)) / 2a; disriminant formula: (b² - 4ac)
+#This Quadratic Equation does not include check the quadratic but will definitely be working on that in the future
 import cmath as cm
 import math as m
 from fractions import Fraction as f
@@ -81,4 +82,3 @@ while True:
             print("""\033[91mPlease Enter a Valid choice
 \033[93mtype(leave, exit, no) to exit
 type(yes or solve) to continue\033[0m""")
-
