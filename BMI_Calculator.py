@@ -1,4 +1,4 @@
-#May 5, 2024 
+#May 5, 2023
 
 
 
@@ -19,8 +19,6 @@ while True:
         mass = float(input("Enter your weight: "))
         height = float(input("Enter your height: "))
 
-    
-    
         print(f"Your BMI is {round(BMI(mass, height), 1)} kg/m²")
                 
         if BMI(mass, height) < 18.5:

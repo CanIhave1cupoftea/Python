@@ -10,3 +10,5 @@ hrs = float(input("Enter Hours: "))
 rate = float(input("Enter Your Rate: "))
 p = computepay(hrs, rate)
 print("Your Total Pay is", p)
+
+

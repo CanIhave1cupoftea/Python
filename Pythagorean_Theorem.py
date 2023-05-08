@@ -1,5 +1,5 @@
 #April 20, 2023
-#Pythagorean Theorem is the relationship between the sides of right triangle and its is formula " a^2 + b^2 = c^2, a and b are the lengths of traingle and c is the hypotenuse
+#Pythagorean Theorem is the relationship between the sides of right triangle and its formula " a² + b² = c², a and b are the lengths of triangle and c is the hypotenuse
 # A and B are the other legs of a triangle, C is always the hypotenuse.Given that, the value of A and B are reversible and can be swapped and you will still arrive at the same answer
 
 import math
@@ -106,14 +106,3 @@ Type 'exit' if you wanna exit the program
         break
     
     ask(a, b, c)
-
-    
-
-
-
-
-
-
-
-
-

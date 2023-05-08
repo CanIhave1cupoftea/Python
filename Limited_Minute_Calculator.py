@@ -1,6 +1,7 @@
 #April 20, 2023
 #Simple minute passed calculator with a maximum of 1 hour and 59 minutes
 
+
 def minutes_passed(i, f):
     min = f - i
     if f < i:

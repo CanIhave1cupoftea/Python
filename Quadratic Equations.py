@@ -3,6 +3,7 @@
 #Quadratic Equation: ax² + bx + c = 0
 #Quadratic Formula: x = (-b ± sqrt(b² - 4ac)) / 2a; disriminant formula: (b² - 4ac)
 #This Quadratic Equation does not include check the quadratic but will definitely be working on that in the future
+
 import cmath as cm
 import math as m
 from fractions import Fraction as f
@@ -44,7 +45,7 @@ while True:
                 if a == 0:
                     print("\033[91mThe value of 'a' can't be 0\033[0m")
                 elif b == 0:
-                    print(f"{a}x²+{c} = 0")
+                    print(f"{a}x²{c} = 0")
                 elif c == 0:
                     print(f"{a}x²+{b}x = 0")
                 elif b < 0: 
