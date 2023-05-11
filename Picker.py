@@ -18,7 +18,7 @@ def random_play(player):
         number = []
         while pseudo_player <= player:
             try:
-                number_choice = int(input("Player", pseudo_player, "please enter your number: "))
+                number_choice = int(input(f"Player {pseudo_player} please enter your number: "))
                 if number_choice <= 0:
                     print("\033[91mNegative numbers or 0 are not allowed as your number\033[0m")
                     continue
