@@ -1,5 +1,5 @@
 #May 11, 2023
-#May 13, 2023 7:32am - changes
+#May 13, 2023 7:32am - 9:00am changes
 import time 
 def duplicate_detector(num):
     no_repeat = set()

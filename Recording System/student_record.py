@@ -1,5 +1,5 @@
 #May 11, 2023 5:55pm
-student_record = {}
+#May 13, 2023 - continued
 
-student = int(input("How many students do you want to put"))
-for 
+def student_record():
+    
