@@ -1,7 +1,7 @@
 #April 19, 2023
 #area and volume of a rectangle
 
-def rectangular_area(length, width, height):
+def rectangular_area(length, width, height=None):
     if height is None:
         area = length * width
         return area
@@ -21,11 +21,11 @@ while True:
             print("Area of the Rectangle:")
             l = input("Please Enter the Length: ")
             w = input("Please Enter the Width: ")
-            h = None
+        
             try:
                 lint = int(l)
                 wint = int(w)
-                print(f"The Area of the Rectangle is {rectangular_area(lint, wint, h)}cm²")
+                print(f"The Area of the Rectangle is {rectangular_area(lint, wint)}cm²")
             except:
                 print("Please Enter a Valid Number")
                 continue
