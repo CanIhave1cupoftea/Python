@@ -12,6 +12,7 @@ random.shuffle(key)
 
 user = input("Enter a message to encrypt: ")
 encrypted = ""
+
 for letter in user:
     index = chars.index(letter)
     encrypted += key[index]

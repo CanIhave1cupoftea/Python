@@ -1,5 +1,8 @@
 import math
 
+
+def area_of_circle(r):
+    return math.pi ** r
 while True:
     
     try:
@@ -35,4 +38,4 @@ while True:
             continue
         
     
-        
+

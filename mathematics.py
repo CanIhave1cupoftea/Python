@@ -34,6 +34,4 @@ if 1 < num > 100:
     print("The number should not be less than 1 or greater than 100")
 else:
     print(factorial(num))
-
-    
     

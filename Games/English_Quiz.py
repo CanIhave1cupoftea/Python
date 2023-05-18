@@ -26,11 +26,3 @@ def english_remark():
 quiz = english_sub()
 print(english_remark())
 
-"""student_name = input("What is Your Name? ")
-student_course = input("What is your course? ")
-student_year = int(input("What is your year level? "))
-student_age = int(input("What is your age? "))
-
-student_data = {"Name" : student_name.capitalize(), "Course": student_course.upper(), "Year Level": student_year, "Age": student_age}
-for key, value in student_data.items():
-    print(f"{key}: {value}")"""
