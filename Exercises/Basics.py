@@ -47,12 +47,15 @@ the start is inclusive, it will include the letter from that index but the end i
 
 
 """
+#variables, should not start with a number, cannot contain any special characters or  space but can contain underscore
+#we can assignment multiple variables and value in a single line
 
-def divisor(x):
-    def dividend(y):
-        return y // x
-    return dividend
+a, b, c = 1, 2, 3
+#if we print this the output would be 1 2 3
 
+#we can also write multiple statements on a single line using semi-colon
 
-divide = divisor(2)
-print(divide(10))
+l = 2; c = 2
+
+#a statement is an instruction that python can execute
+# we have 4 different statements, print, assignment, if, looping statements

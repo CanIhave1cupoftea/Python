@@ -7,3 +7,4 @@ def isogram(word):
     return f"{word} is an isogram" if all([i for i in word if word.count(i) ==  1]) else f"{word} is not an isogram"
 
 print(("sheEt"))
+

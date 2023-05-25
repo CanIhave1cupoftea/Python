@@ -12,4 +12,3 @@ def add_binary(a,b):
 
 print(add_binary(5, 9))
 
-:=
