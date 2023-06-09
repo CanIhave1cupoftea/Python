@@ -106,7 +106,7 @@ motor.start"""
 
 #we will try to make objects as argument
 
-class Food:
+"""class Food:
     name = None
 
 def change_name(name, new_name):
@@ -119,4 +119,23 @@ print(food_1.name)
 change_name(food_2, "adobo")
 change_name(food_1, "sinigang")
 
-print(food_1.name)
+print(food_1.name)"""
+
+class Sample:
+
+    #class variable/attribute
+    text = "word"
+
+    #instantiates and object
+    def __init__(self, name) -> None:
+        
+        #instance variable
+        self.name = name
+
+    #instance method
+    def sayHI(self):
+        print("HI")
+
+sample1 = Sample("this is an example")
+print(sample1.name)
+sample1.sayHI()

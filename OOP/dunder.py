@@ -14,8 +14,3 @@ class Word:
     def __add__(self, additional):
 
         return self.word + " " +    additional
-
-class Base1(object):
-    def __init__(self):
-        self.str1 = "Geek1"
-        print "Base1"
